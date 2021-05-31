@@ -1,0 +1,128 @@
+.memberEntry-Container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(235, 235, 235);
+  .sub-container {
+    width: 95%;
+    height: 95%;
+    border: 0.1px solid lightgray;
+    border-radius: 5px;
+    background: #ffffff;
+    font-family: Montez, cursive;
+
+    .header {
+      height: 10%;
+      width: 100%;
+      border: 0.1px solid lightgray;
+      box-sizing: border-box;
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .body {
+      height: 80%;
+      width: 100%;
+      .player {
+        display: flex;
+        width: 100%;
+        height: 50%;
+        border: 0.1px solid lightgray;
+        box-sizing: border-box;
+        .player1 {
+          width: 50%;
+          height: 100%;
+          border: 0.1px solid lightgray;
+          box-sizing: border-box;
+          .text {
+            height: 40%;
+            width: 100%;
+            border: 0.1px solid lightgray;
+            box-sizing: border-box;
+            font-weight: 600;
+            font-size: 26px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .inputField {
+            height: 60%;
+            width: 100%;
+            border: 0.1px solid lightgray;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+          }
+        }
+        .player2 {
+          width: 50%;
+          height: 100%;
+          border: 0.1px solid lightgray;
+          box-sizing: border-box;
+          .text {
+            height: 40%;
+            width: 100%;
+            border: 0.1px solid lightgray;
+            box-sizing: border-box;
+            font-weight: 600;
+            font-size: 26px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .inputField {
+            height: 60%;
+            width: 100%;
+            border: 0.1px solid lightgray;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+          }
+        }
+      }
+      .button {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        Button {
+          font-size: 18px;
+          width: 200px;
+        }
+      }
+    }
+    .footer {
+      height: 10%;
+      width: 100%;
+      border: 0.1px solid lightgray;
+      box-sizing: border-box;
+    }
+  }
+}
+
+.suggetion {
+  width: 225px;
+  height: 30px;
+  // border: 0.1px solid lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.error {
+  width: 250px;
+  height: 30px;
+  // border: 0.1px solid lightgray;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
